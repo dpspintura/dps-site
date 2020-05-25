@@ -9056,8 +9056,8 @@ span {
   margin-bottom: 20px;
 }
 #Services .service-box .service-icon .front-content h3 {
-  font-size: 15px;
-  color: #fff;
+  font-size: 28px;
+  color: mintcream;
   text-align: center;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -9074,18 +9074,6 @@ span {
   color: #fff;
   margin: 0;
 }
-#Services .service-box .yellow {
-  background-color: #02b3e4;
-}
-#Services .service-box .orange {
-  background-color: #02ccba;
-}
-#Services .service-box .red {
-  background-color: #02bed2;
-}
-#Services .service-box .grey {
-  background-color: #47c6d0;
-}
 #Services .service-box:hover .service-icon {
   opacity: 0;
   -webkit-transform: translateY(-110px) rotateX(90deg);
@@ -9101,6 +9089,22 @@ span {
   -ms-transform: rotateX(0);
   -o-transform: rotateX(0);
   transform: rotateX(0);
+}
+.service-pintura-aplicada {
+  background-image: url('../images/iStock-600084084.jpg');
+  background-size: cover;
+}
+.service-calidad {
+  background-image: url('../images/iStock-936618884.jpg');
+  background-size: cover;
+}
+.service-compromiso {
+  background-image: url('../images/iStock-694475844.jpg');
+  background-size: cover;
+}
+.service-movilidad {
+  background-image: url('../images/iStock-1056632178.jpg');
+  background-size: cover;
 }
 #Portfolio {
   padding: 80px 0;
