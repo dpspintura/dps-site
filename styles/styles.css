@@ -8966,8 +8966,11 @@ span {
 #Banner {
   position: relative;
   height: 100vh;
-  background: linear-gradient(274deg, #46c8d0, #6262e2 44%, #c962f7);
-  color: #fff;
+  background-image: url('../images/iStock-1180990099.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: orangered;
 }
 #Banner .content-wrap {
   position: absolute;
