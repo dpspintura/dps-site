@@ -5531,9 +5531,6 @@ button.bg-dark:hover {
 .border-right {
   border-right: 1px solid #dee2e6 !important;
 }
-.border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
-}
 .border-left {
   border-left: 1px solid #dee2e6 !important;
 }
@@ -9211,9 +9208,10 @@ span {
   margin-bottom: 40px;
 }
 #Contact .contact-wrapper {
-  border-right: 1px solid #cecece;
   margin-right: 40px;
-  padding: 0 40px 40px 0;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
 #Contact .contact-wrapper h3 {
   font-size: 22px;
@@ -9226,34 +9224,21 @@ span {
   line-height: 180%;
 }
 #Contact .address-block.border-bottom {
-  border-bottom: 1px solid #cecece;
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
 #Contact .c-icon {
   margin-right: 20px;
 }
+#Contact .c-info-adress {
+  display: flex;
+  flex-direction: column;
+}
+#Contact .c-info-location {
+  margin-left: 47px;
+}
 #Contact .contact-wrapper span i {
   color: #02ccba;
-}
-#Contact .form-wrap {
-  width: 100%;
-  display: table-cell;
-}
-#Contact .form-wrap .floating-label {
-  position: relative;
-  width: 100%;
-  display: inline-block;
-  margin-bottom: 30px;
-}
-#Contact .form-wrap .fname,
-#Contact .form-wrap .contact {
-  margin-right: 20px;
-}
-#Contact .form-wrap .user-msg {
-  width: 98%;
-  display: block;
-  margin-bottom: 40px;
 }
 #Contact .floating-input {
   width: 100%;
