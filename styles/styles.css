@@ -8962,8 +8962,9 @@ span {
 }
 #Logo {
   position: relative;
-  left: 25px;
+  left: 15px;
   bottom: 60px;
+  width: fit-content;
 }
 #Logo img {
   width: 150px;
@@ -8977,7 +8978,7 @@ span {
 #Banner {
   position: relative;
   height: 100vh;
-  background-image: url('../images/iStock-1180990099.jpg');
+  background-image: url('../images/dps-010.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -9088,19 +9089,19 @@ span {
   transform: rotateX(0);
 }
 .service-pintura-aplicada {
-  background-image: url('../images/iStock-600084084.jpg');
+  background-image: url('../images/dps-006.jpg');
   background-size: cover;
 }
 .service-calidad {
-  background-image: url('../images/iStock-936618884.jpg');
+  background-image: url('../images/dps-008.jpg');
   background-size: cover;
 }
 .service-compromiso {
-  background-image: url('../images/iStock-694475844.jpg');
+  background-image: url('../images/dps-007.jpg');
   background-size: cover;
 }
 .service-movilidad {
-  background-image: url('../images/iStock-1056632178.jpg');
+  background-image: url('../images/dps-009.jpg');
   background-size: cover;
 }
 #Portfolio {
