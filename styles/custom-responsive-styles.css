@@ -4,11 +4,23 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  #Banner {
+    background-position-x: 0px;
+    background-position-y: -15px;
+  }
+  #Banner .content-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -90%);
+    width: 100%;
+    left: 50%;
+    padding: 45px;
+  }
   #Banner .content-wrap h1 {
-    font-size: 36px;
+    font-size: 60px;
   }
   #Banner .content-wrap h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .content-section-heading h2 {
     font-size: 30px;
@@ -42,11 +54,19 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  #Banner .content-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translate(-35%, -50%);
+    width: 100%;
+    left: 64%;
+    padding: 124px;
+  }
   #Banner .content-wrap h1 {
-    font-size: 36px;
+    font-size: 60px;
   }
   #Banner .content-wrap h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .content-section-heading h2 {
     font-size: 30px;
@@ -80,11 +100,22 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  #Banner .content-wrap h1 {
-    font-size: 40px;
+  #Banner .content-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translate(-25%, -50%);
+    width: 100%;
+    left: 50%;
+    padding: 190px;
   }
   #Banner .content-wrap h3 {
-    font-size: 24px;
+    font-size: 40px;
+  }
+  #Banner .content-wrap h1 {
+    font-size: 80px;
+  }
+  #Banner .content-wrap h3 {
+    font-size: 30px;
   }
   .content-section-heading h2 {
     font-size: 30px;
@@ -105,11 +136,22 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  #Banner {
+    background-position-x: 0px;
+  }
+  #Banner .content-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    width: 100%;
+    left: 50%;
+    padding: 285px;
+  }
   #Banner .content-wrap h1 {
-    font-size: 40px;
+    font-size: 80px;
   }
   #Banner .content-wrap h3 {
-    font-size: 24px;
+    font-size: 40px;
   }
   .content-section-heading h2 {
     font-size: 30px;
@@ -126,4 +168,22 @@
 }
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  #Banner {
+    background-position-x: 0px;
+  }
+  #Banner .content-wrap {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translate(-20%, -50%);
+    width: 100%;
+    left: 50%;
+    padding: 350px;
+  }
+  #Banner .content-wrap h1 {
+    font-size: 80px;
+  }
+  #Banner .content-wrap h3 {
+    font-size: 40px;
+  }
 }

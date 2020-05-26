@@ -8963,14 +8963,28 @@ span {
   font-family: 'Source Sans Pro', sans-serif;
   text-transform: capitalize;
 }
+#Logo {
+  position: relative;
+  left: 10px;
+  bottom: 60px;
+}
+#Logo img {
+  width: 150px;
+}
+#Logo h3 {
+  position: relative;
+  font-weight: 700;
+  left: 70px;
+  bottom: 20px;
+}
 #Banner {
   position: relative;
   height: 100vh;
   background-image: url('../images/iStock-1180990099.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  color: orangered;
+  color: mintcream;
 }
 #Banner .content-wrap {
   position: absolute;
